@@ -1,0 +1,59 @@
+.sign__up {
+  border: 0.1rem solid rgba(var(--boreder-color), 0.5);
+  padding: 1.2rem 3rem;
+  width: 27rem;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+.sign__up button {
+  font-weight: 600;
+  color: #385185;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.signup__container {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+}
+.signup__container img {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.signup__container button {
+  margin-top: 1rem;
+  padding: 0.5rem 0 0.5rem 0;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #383737;
+}
+.signup__container input[type="text"] {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 1rem 0 0.5rem 1rem;
+  height: 2.8rem;
+  border: none;
+  border-bottom: 0.1rem solid black;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+.signup__container input[type="password"] {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 1rem 0 0.5rem 1rem;
+  height: 2.8rem;
+  border: none;
+  border-bottom: 0.1rem solid black;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
